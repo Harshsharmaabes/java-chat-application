@@ -4,13 +4,16 @@ A simple real-time chat application built in Java using sockets and multithreadi
 The project consists of a **server** that handles multiple clients simultaneously and a **client** application that connects to the server and exchanges messages.
 
 ## 🧱 Project Structure
-
+```
 ChatApplication/
-|_client/
-┃ |_ Client.java
-|_server/
-┃ |_ Server.java
-
+┣ client/
+┃ ┗ Client.java
+┣ server/
+┃ ┗ Server.java
+┣ screenshots/
+┃ ┗ chat-demo.png
+┗ README.md
+```
 
 ---
 
@@ -42,9 +45,9 @@ java client.Client
 
 📸 Example Output
 
-![alt text](<Screenshot 2025-11-10 112937.png>)
+![alt text](<ScreenShots/Screenshot 2025-11-10 112937.png>)
 
-![alt text](<Screenshot 2025-11-10 113255.png>)
+![alt text](<ScreenShots/Screenshot 2025-11-10 113255.png>)
 
 🧠 Future Improvements
 

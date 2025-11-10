@@ -6,10 +6,10 @@ The project consists of a **server** that handles multiple clients simultaneousl
 ## 🧱 Project Structure
 
 ChatApplication/
-┣ client/
-┃ ┗ Client.java
-┣ server/
-┃ ┗ Server.java
+|_client/
+┃ |_ Client.java
+|_server/
+┃ |_ Server.java
 
 
 ---

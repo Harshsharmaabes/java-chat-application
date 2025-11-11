@@ -17,7 +17,6 @@ public class Client {
             System.out.println("Connected to server successfully...!");
             System.out.print("Enter your name: ");
             String name = sc.nextLine();
-            Socket finalSocket = s;
 
             // Thread for reading
             new Thread(() -> {
